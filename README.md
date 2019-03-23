@@ -10,9 +10,9 @@
 - Change JS file name to script
 - Change H1 to "Traffic Code"
 - Add H3 with "Change the color!"
-- Remove 'myDiv' and button, then remove p, button styling
+- Remove 'myDiv' and button
 - Add div with id 'light'
-- Add hr, *then style hr
+- Add hr
 - Add div with id 'dots'
 
 # 2 - Remaking the styling
