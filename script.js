@@ -5,7 +5,8 @@ colors = ["red", "yellow", "green",];
 lightDiv = document.getElementById("light");
 dotsDiv = document.getElementById("dots");
 
-function makeDot(color=colors[0], htmlClass="dot") { // Makes a dot
+// Makes a dot
+function makeDot(color=colors[0], htmlClass="dot") {
 	let dot = document.createElement("span");
 	dot.className = htmlClass;
 	dot.style.backgroundColor = color;
@@ -19,13 +20,14 @@ for (let i=0; i<colors.length; i++) {
 	let dot = makeDot('white', 'empty');
 	dots.push(dot);
     
-	// The dot is added to the page inside a div, so that the dots stack vertically
+	// The dot is added to the page inside a div, so they stack vertically
 	let d = document.createElement("div");
 	d.appendChild(dot);
 	lightDiv.appendChild(d);
 }
 
-function changeColor(dot, color) { // Changes the color of the given dot
+// Changes the color of the given dot
+function changeColor(dot, color) {
 	// Reset all of the dots to 'white' and 'empty'
 	for (let i=0; i<dots.length; i++) {
         	dots[i].style.backgroundColor = 'white';
