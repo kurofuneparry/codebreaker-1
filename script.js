@@ -1,13 +1,13 @@
 // Dot colors
-colors = ["red", "yellow", "green",];
+colors = ['red', 'yellow', 'green',];
 
 // Parts of the web page
-lightDiv = document.getElementById("light");
-dotsDiv = document.getElementById("dots");
+lightDiv = document.getElementById('light');
+dotsDiv = document.getElementById('dots');
 
 // Makes a dot
-function makeDot(color=colors[0], htmlClass="dot") {
-	let dot = document.createElement("span");
+function makeDot(color=colors[0], htmlClass='') {
+	let dot = document.createElement('span');
 	dot.className = htmlClass;
 	dot.style.backgroundColor = color;
 	return dot;
@@ -21,7 +21,7 @@ for (let i=0; i<colors.length; i++) {
 	dots.push(dot);
     
 	// The dot is added to the page inside a div, so they stack vertically
-	let d = document.createElement("div");
+	let d = document.createElement('div');
 	d.appendChild(dot);
 	lightDiv.appendChild(d);
 }
@@ -35,8 +35,8 @@ function changeColor(dot, color) {
     	} 
 	
 	// Change the color of the given dot
-	dot.className = 'dot';
 	dot.style.backgroundColor = color;
+	dot.className = '';
 }
 
 // Add the clickable colored dots, one for each color in colors
