@@ -1,7 +1,31 @@
 # codebreaker-1
 
 # Introduction
-
+- Introduce the goal application and features
+    - Dots and interface interactions
+    - Buttons with functions
+    - Grading/response system
+    - Artificial intelligence
+    - Daunting? No, so easy you'll almost make it by accident
+    - They key isn't being a genius, it's learning to think like a programmer
+        - Which is easy, now that you're a programmer
+- All 8 elements of coding will be covered to one degree or another
+- This program emphasizes arrays and loops as tools for solving problems
+    - It will include using loops for a variety of purposes
+    - However fancy functions like recursive functions will be included
+- Computational thinking is easy with examples like this
+    - Comp. thinkining is not about solving a problem, but solving a whole type of problem
+    - We separate the problem into pieces to solve the whole thing
+    - Then we solve each piece
+    - This separation of concerns means that we don't have to worry about each detail, just one at a time
+- This isn't teaching
+    - Exactly the way someone might program a professional product
+        - No all coding needs to be that way, especially while learning
+        - Programmers often get tasks done without doing everything super formal
+        - This is also best to learn the basics before working on style
+   - Codebreaker will introduce a more procedural style of programing
+        - It works well for this problem, and it's makes it fun to see what you're building
+- Without further ado, let's get to the fun
 
 # 1 - Remaking the HTML
 - Capture the index.html from the workshop project
