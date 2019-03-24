@@ -25,7 +25,7 @@
         - This is also best to learn the basics before working on style
    - Codebreaker will introduce a more procedural style of programing
         - It works well for this problem, and it's makes it fun to see what you're building
-- Without further ado, let's get to the fun
+- Without further ado, let's get to the fun!
 
 # 1 - Remaking the HTML
 - Capture the index.html from the workshop project
