@@ -1,11 +1,16 @@
 # codebreaker-1
 
 # Introduction
-- Introduce the goal application and features
+- A complete game from start to finish
+- 
+- Demonstrate in web page
     - Dots and interface interactions
     - Buttons with functions
-    - Grading/response system
-    - Artificial intelligence
+        - Submit a guess
+            - It gives the number of correct colors in the correct place, and correct colors in the wrong place
+        - Clear a started guess
+        - Solve with AI
+        - Reset the game
     - Daunting? No, so easy you'll almost make it by accident
     - They key isn't being a genius, it's learning to think like a programmer
         - Which is easy, now that you're a programmer
@@ -23,6 +28,16 @@
         - No all coding needs to be that way, especially while learning
         - Programmers often get tasks done without doing everything super formal
         - This is also best to learn the basics before working on style
+            - https://openclipart.org/detail/293547/apple-svg-apple-clipart
+            - https://pixabay.com/vectors/apple-pie-pie-a-la-mode-slice-25301/
+            - https://pixabay.com/vectors/apple-slice-fruit-food-juicy-ripe-31768/
+            - https://pixabay.com/vectors/rolling-pin-dough-baking-tool-157071/
+            - https://commons.wikimedia.org/wiki/File:Stove.svg
+            - http://www.publicdomainfiles.com/show_file.php?id=13526407212211
+            - https://commons.wikimedia.org/wiki/File:138-man-farmer-2.svg
+            - https://commons.wikimedia.org/wiki/File:Fxemoji_u1F372.svg
+            - https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Salad-575436.svg/800px-Salad-575436.svg.png
+            - https://commons.wikimedia.org/wiki/File:Twemoji2_1f96a.svg
    - Codebreaker will introduce a more procedural style of programing
         - It works well for this problem, and it's makes it fun to see what you're building
 - Without further ado, let's get to the fun!
