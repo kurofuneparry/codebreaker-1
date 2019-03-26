@@ -1,6 +1,7 @@
 # codebreaker-1
 
 # Introduction
+- Welcome to the Code180 Codebreaker Project
 - A complete game from start to finish
 - 
 - Demonstrate in web page
